@@ -16,7 +16,8 @@ img {
 }
 
 .content-sidebar {
-  z-index: 2;
+  z-index: 1;
+  min-height: 200px;
 }
 
 .profile-nav li:first-child {
@@ -34,5 +35,18 @@ img {
 }
 
 .profile-info {
-  margin: 20px;
+  margin: 20px 0;
+}
+
+.profile-info > h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.profile-info > p {
+  margin: 20px 0;
+}
+
+.profile-nav {
+  margin: 20px 0;
 }
